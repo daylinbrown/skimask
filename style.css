@@ -1,0 +1,109 @@
+body {
+	background-color: black;
+	margin: 0;
+	padding: 0;
+}
+.container {
+	width: 90%;
+	margin: 0 auto;
+
+}
+li{
+	list-style:none;
+	padding: 10px 0;
+	border-right: 1px solid black;
+	text-align: center;
+	width: 25%;
+}
+ul{
+	display:flex;
+	justify-content:space-around;
+	border-style:solid;
+	background-color:#EAFF51;
+
+
+}
+#ski{
+	background-color:#D8D8D8;
+	font-size:33px;
+	border-style:solid;
+	width: 100%;
+	text-align: center;
+	padding: 50px 0;
+}
+a {
+	text-decoration:none;
+    color:black;
+}
+#biography{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+#albums{
+	background-image:url('236-2363780_dope-ski-mask-the-slump-god.png');
+}
+.pair{
+	display:flex;
+	justify-content: center;
+	padding:15px;
+}
+.biography img {
+	width: 30%;
+}
+.biography p {
+	width: 65%;
+	background-color:#D8D8D8;
+	font-size:25px;
+}
+#tourdates{
+}
+#contactski{
+}
+.album{
+	text-align: center;
+	color:white;
+	border-style:solid;
+}
+.images{
+	text-align:center;
+}
+
+#together{
+	display:flex;
+	justify-content:center;
+	background-image:url('IMG_9766.png');
+	color:white;
+}
+#button{
+	border-style:solid;
+}
+.place{
+	border-style:solid;
+	padding-left:15px;
+	padding-right:15px;
+}
+.dates{
+	border-style:solid;
+	padding-left:15px;
+	padding-right:15px;
+}
+.section-header{
+	border-style:solid;
+	background-color:#EAFF51;
+	font-size:33px;
+}
+.information{
+	text-align:center;
+	font-size:20px;
+	border-style:solid;
+	padding-bottom:30px;
+	background-color:#CC6F00;
+}
+label{
+	border-style:solid;
+}
+.logos{
+	display:flex;
+	justify-content:space-between;
+}
